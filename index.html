@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Analog clock</title>
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <link rel="stylesheet" href="css/sstyle.css" />
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="clock">
+            <div class="hands">
+                    <div class="time-text">
+                            <span id="hr">00</span>
+                            <span>:</span>
+                            <span id="min">00</span>
+                            <span>:</span>
+                            <span id="sec">00</span>
+                            <span id="suffix">--</span>
+                        </div>
+                <svg  width="650" height="650">
+                    <line id="hour-hand" x1="324" y1="325" x2="325" y2="290"></line>
+                    <line id="minute-hand" x1="324" y1="325" x2="325" y2="250"></line>
+                    <line id="second-hand" x1="324" y1="325" x2="325" y2="240"></line>
+                </svg>
+                
+            </div>
+        </div>
+        <script src="js/scripting.js"></script>
+    </body>
+</html>

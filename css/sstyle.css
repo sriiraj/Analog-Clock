@@ -1,0 +1,48 @@
+body{
+   margin: 0;
+   background-color:black; 
+}
+
+.clock{
+    /* background-image: url('https://i.imgur.com/PTgQlim.png'); */
+    background-image:url('clock_frame.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 650px;
+    height: 650px;
+    position: absolute;
+    top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#hour-hand{
+    stroke: #ca3d22;
+    stroke-width:7px;
+    stroke-linecap:round;
+}
+#minute-hand{
+    stroke: white;
+    stroke-width:5px;
+    stroke-linecap:round;
+}
+#second-hand{
+    stroke: white;
+    stroke-width:3px;
+    stroke-linecap:round;
+}
+.time-text{
+    text-align:center;
+    color:#D4D7D8;
+    top:38%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    background-color: #ca3d22;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    z-index: -1;
+}
